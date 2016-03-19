@@ -26,6 +26,7 @@ header li>h1>a{
 }
 header li>h1>a:hover{
 	color: #D7DEE0;
+	text-decoration: none;
 	margin:0px;
 }
 header li>h1>a:visited{
@@ -43,6 +44,7 @@ header li>a{
 }
 header li>a:hover{
 	color: #D7DEE0;
+	text-decoration: none;
 	margin:0px;
 }
 header li>a:visited{
@@ -122,9 +124,6 @@ body{
 	color: blue;
 	text-decoration: underline;
 }	
-.resume section{
-	display: inline-block;
-}
 .resume h2{
 	margin-left: 20px;
 	margin-right: 20px;
@@ -133,6 +132,10 @@ body{
 	margin-left: 20px;
 	margin-right: 20px;
 	font-weight: bold;
+}
+.resume h5{
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .resume p{
 	margin-left: 50px;
@@ -149,4 +152,37 @@ body{
 .projects a:hover{
 	color: blue;
 	text-decoration: underline;
+}
+#concact{
+	background-color: #66d042;
+	color: #9CAEB2;
+	width: 100%;
+	height: 60px;
+	text-decoration: none;
+	margin:0px;
+}
+#contact ul{
+	list-style-type: none;
+	float:left;
+	overflow: hidden;
+	text-decoration: none;
+	margin:0px;
+}
+#contact ul li{
+	display: inline;
+}
+#contact li>a{
+	padding-left: 20px;
+	
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+#contact ul>li>a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+#contact li>a:visited{
+	color: black;
+	margin:0px;
 }
