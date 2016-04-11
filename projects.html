@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -10,6 +10,9 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</script>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<title>Shelby Escobedo|Projects</title>
 </head>
 <body>
@@ -24,41 +27,86 @@
 	</ul>
 </header>
 <div class="body">
-<div class="projects">
 <h1>Projects</h1>
-	<ul>
-	<li><a href="http://shelbyescobedo.com:8080/MovieProject/">redCarpetClub</a></li>
-	<ul>
-		<li>Explore the best movies of all time with the redCarpetClub. Users can see all the movies listed, as well as searching by genre and name.  They can also discover who is in the film.  Users can also add their favorite movies, delete their least favorite, and update any information.</li>
-		<li>The redCarpetClub was made with Java Spring MVC in the backend. HTML and CSS was used in the front end. The information comes from AFI's Top 100 List</li>
-	</ul>
-	<li><a href="http://shelbyescobedo.com:8080/SuperWiki/">SuperWiki</a></li>
-	<ul>
-		<li>Go up...up...and away with SuperWiki. SuperWiki is a superhero Wikipedia site and fan forum. Users can add their favorite superheros and villains, update any incorrect information, and talk with fellow fans about their favorite superhero. 
-		</li>
-		<li>SuperWiki is made with Java Spring MVC, JPA, MYSQl for the database, with HTML and CSS in the front-end</li>
-	</ul>
-	<li><a href="http://shelbyescobedo.com:8080/JDBCProject/">companyRolodex</a></li>
-	<ul>
-		<li>All of an employee's information in one spot... companyRolodex is a human resources' dream.  Users can see all employees, get specific  information, add an employee, update their information, and delete if needed</li>
-		<li>companyRolodex is made with Java Spring MVC, JDBC and MYSQL database.  The front-end was created with HTML and CSS</li>
-	</ul>
-	<li><a href="http://shelbyescobedo.com:8080/EventTracker/">getFit</a></li>
-	<ul>
-		<li>Whether you need to shed a few pounds or keep track of your New Year's resolution, getFit will keep track of your daily exercise routine. Users can follow of all of their previous exercises. They can also see their average daily steps.
-		</li>
-		<li>getFit was made with Java REST and MYSQL database for the backend. It uses JavaScript DOM, HTML, and CSS for the front-end.
-		</li>
-	</ul>
-	<li><a href="http://shelbyescobedo.com:8080/Game/">Whack-A-Mole</a></li>
-	<ul>
-		<li>Go back to your childhood, and take your frustrations out with Whack-A-Mole.  Users have 30 seconds to hit as many moles as possible, but more join in the fun as the timer winds down. List your name and see if you can beat the high score.
-		</li>
-		<li>Whack-A-Mole was made with Java REST and MYSQL database for the backend to keep track of scores. The game itself. The front-end was made with JavaScript, HTML and CSS.
-		</li>
-	</ul>
-	</ul>
+
+<div class="projects">
+
+<div class="content-section-a">
+<h3>SuperWiki</h3>
+<div class="project-img">
+	<img src="SuperWiki.jpg">
+</div>
+		<p>Go up...up...and away with SuperWiki. SuperWiki is a superhero Wikipedia site and fan forum. Users can add their favorite superheros and villains, update any incorrect information, and talk with fellow fans about their favorite superhero. 
+		</p>
+		<p>SuperWiki is made with Java Spring MVC, JPA, MYSQl for the database, with HTML and CSS in the front-end</p>
+	<a class="btn btn-success" href="http://shelbyescobedo.com:8080/SuperWiki/">Website</a>
+	<a class="btn btn-success" href="https://github.com/Sokos6/SuperWiki">GitHub</a>
+</div>
+<div class="content-section-b">
+<h3>getFit</h3>
+	<div class="project-img">
+	<img src="getFit.jpg">
+</div>
+		<p>Whether you need to shed a few pounds or keep track of your New Year's resolution, getFit will keep track of your daily exercise routine. Users can follow of all of their previous exercises. They can also see their average daily steps.
+		</p>
+		<p>getFit was made with Java REST and MYSQL database for the backend. It uses JavaScript DOM, HTML, and CSS for the front-end.
+		</p>
+		<a class="btn btn-success" href="http://shelbyescobedo.com:8080/EventTracker/">Website</a>
+		<a class="btn btn-success" href="https://github.com/sescobedo621/EventTracker">GitHub</a>
 </div>
 </div>
+
+<div class="content-section-a">
+<h3>companyRolodex</h3>
+	<div class="project-img">
+	<img src="companyRolodex.jpg">
+</div>
+
+		<p>All of an employee's information in one spot... companyRolodex is a human resources' dream.  Users can see all employees, get specific  information, add an employee, update their information, and delete if needed</p>
+		<p>companyRolodex is made with Java Spring MVC, JDBC and MYSQL database.  The front-end was created with HTML and CSS</p>
+		<a class="btn btn-success" href="http://shelbyescobedo.com:8080/JDBCProject/">Website</a>
+		<a class="btn btn-success" href="https://github.com/sescobedo621/JDBCCompany">GitHub</a>
+
+</div>
+
+
+<div class="content-section-b">
+	<h3>redCarpetClub</h3>
+	<div class="project-img">
+	<img src="redCarpetClub.jpg">
+</div>
+
+		<p>Explore the best movies of all time with the redCarpetClub. Users can see all the movies listed, as well as searching by genre and name.  They can also discover who is in the film.  Users can also add their favorite movies, delete their least favorite, and update any information.</p>
+		<p>The redCarpetClub was made with Java Spring MVC in the backend. HTML and CSS was used in the front end. The information comes from AFI's Top 100 List</p>
+		<a class="btn btn-success" href="http://shelbyescobedo.com:8080/MovieProject/">Website</a>
+		<a class="btn btn-success"  href="https://github.com/sescobedo621/movieProject">GitHub</a>
+</div>
+
+<div class="content-section-a">
+<h3>Whack-A-Mole</h3>
+<div class="project-img">
+	<img src="Whack-A-Mole.jpg">
+</div>
+		<p>Go back to your childhood, and take your frustrations out with Whack-A-Mole.  Users have 30 seconds to hit as many moles as possible, but more join in the fun as the timer winds down. List your name and see if you can beat the high score.</p>
+		<p>Whack-A-Mole was made with Java REST and MYSQL database for the backend to keep track of scores. The game itself. The front-end was made with JavaScript, HTML and CSS.</p>
+		<p><a class="btn btn-success" href="http://shelbyescobedo.com:8080/Game/">Website</a></p>
+</div>
+</div>
+</div>
+<div>
+	<br>
+	<br>
+	<br>
+</div>
+<footer class="footer">
+<div class="container">
+	<ul>
+		<li class="text-muted">Phone:(303) 807-7302</li>
+		<li class="text-muted"><a href= "mailto:shelby.escobedo@gmail.com" class="text-muted">Email: shelby.escobedo@gmail.com</a></li>
+		<li class="text-muted"><a href="https://github.com/sescobedo621" class="text-muted">GitHub: github.com/sescobedo621</a></li>
+		<li class="text-muted"><a href="https://www.linkedin.com/in/shelbyescobedo" class="text-muted">LinkedIn: linkedin.com/in/shelbyescobedo</a></li>
+	</ul>
+</div>
+</footer>
 </body>
 </html>
